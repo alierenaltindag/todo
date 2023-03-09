@@ -12,10 +12,10 @@ This is a basic To-Do application written using Electron. Users can add, edit an
 - Note that this application is a test project. Storing to-dos in a local JSON file is a terrible idea. This method may be inefficient in terms of memory usage and performance for large amounts of data.
 
 ## Images
-![Homepage](https://imgur.com/zuz5fpY)
-![Add](https://imgur.com/UOnSLAF)
-![Edit](https://imgur.com/vDkRaUn)
-![Solved To-Dos](https://imgur.com/YyuWkSp)
+![Homepage](https://i.imgur.com/zuz5fpY.png)
+![Add](https://i.imgur.com/UOnSLAF.png)
+![Edit](https://i.imgur.com/vDkRaUn.png)
+![Solved To-Dos](https://i.imgur.com/YyuWkSp.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

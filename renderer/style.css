@@ -1,0 +1,62 @@
+html {
+    font-family: 'FallingSky' 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+tr {
+    align-items: center;
+}
+
+tr:hover .hover-icons {
+    opacity: .75;
+}
+
+.hover-icons {
+    border: none !important;
+    opacity: 0;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+}
+
+.hover-icons:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+#register-btn {
+    border: 1px solid rgba(0, 0, 0, .2)
+}
+
+#topArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#topArea .buttons {
+    margin-right: auto;
+}
+
+#searchArea {
+    margin-left: auto;
+}
+
+.alert {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'FallingSky';
+    src: url('../assets/FallingSky-JKwK.otf');
+}
